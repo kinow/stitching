@@ -82,19 +82,20 @@ Run tests using
 python -m unittest
 ```
 
-Build with
-
-```bash
-python -m build
-```
-
-Please make sure to lint all pull requests.
+Please make sure to lint all PRs.
 
 Lint the changed files
 
 ```bash
 pre-commit install && pre-commit run
 ```
+
+## Use Cases
+
+### Newspaper
+| ----------- | ----------- |
+| Original Images      | [Source](https://github.com/opencv/opencv_extra/tree/4.x/testdata/stitching)       |
+| Characteristics   | Scans are Stitched in Affine Mode. Stitching doesn't work well with ORB. Detector is set to SIFT       |
 
 ## License
 
